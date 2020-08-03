@@ -1,0 +1,42 @@
+
+.form{
+    min-height: 100px;
+    overflow: hidden;
+    padding-bottom: 64px;
+
+    .form_h2{
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .form_input{
+        margin: 32px 10%;
+        width: 80%;
+        height: 40px;
+        float: left;
+        border: none;
+        text-align: center;
+        transition: 0.2s;
+
+        @media (min-width: $tab){
+            margin: 32px 5%;
+            width: 40%;
+            height: 40px;
+        }
+
+    }
+
+    .form_input2{
+       background-color: #66b9cc;
+       color: white;
+
+       &:hover{
+           background-color: #94cedb;
+       }
+       &:active{
+           background-color: #3894a8;
+       }
+    }
+
+}
